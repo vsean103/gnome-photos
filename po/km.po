@@ -6,550 +6,1040 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-photos gnome-3-12\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"photos&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-04-02 22:42+0000\n"
-"PO-Revision-Date: 2014-04-02 22:42+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-photos/issues\n"
+"POT-Creation-Date: 2020-05-26 16:37+0000\n"
+"PO-Revision-Date: 2020-12-11 23:19-0800\n"
 "Language-Team: Khmer <km@li.org>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.4.2\n"
 
-#: ../data/org.gnome.Photos.appdata.xml.in.h:1
+#: data/org.gnome.Photos.appdata.xml.in:7 data/org.gnome.Photos.desktop.in.in:3
+#: src/photos-application.c:3040 src/photos-embed.c:825
+#: src/photos-main-window.c:437 src/photos-search-type-manager.c:144
+msgid "Photos"
+msgstr "រូបថត"
+
+#: data/org.gnome.Photos.appdata.xml.in:8 src/photos-main-window.c:457
+msgid "Access, organize and share your photos on GNOME"
+msgstr "ចូលប្រើ រៀបចំ និងចែករំលែករូបថតរបស់អ្នកនៅលើ GNOME"
+
+#: data/org.gnome.Photos.appdata.xml.in:10
 msgid ""
-"A simple application to access, organize and share your photos on GNOME. It "
-"is meant to be a simple and elegant replacement for using a file manager to "
-"deal with photos. Seamless cloud integration is offered through GNOME Online "
+"Access, organize and share your photos on GNOME. A simple and elegant "
+"replacement for using a file manager to deal with photos. Enhance, crop and "
+"edit in a snap. Seamless cloud integration is offered through GNOME Online "
 "Accounts."
 msgstr ""
+"ចូលប្រើ រៀបចំ និងចែករំលែករូបថតរបស់អ្នកនៅលើ GNOME ។ ការជំនួសសាមញ្ញនិងឆើតឆាយ "
+"សម្រាប់ប្រើកម្មវិធីគ្រប់គ្រងឯកសារជាមួយរូបថត។ ធ្វើឱ្យប្រសើរឡើង កាត់ និងកែសំរួលមួយរំពេច។ "
+"ការរួមបញ្ចូលប្រព័ន្ឋអុីនធឺណែតប្រកបដោយភាពរលូន ត្រូវបានផ្តល់ជូនតាមរយៈគណនេយ្យតាមអុីនធឺណែតរបស់ GNOME"
 
-#: ../data/org.gnome.Photos.appdata.xml.in.h:2
-msgid "It lets you:"
-msgstr ""
+#: data/org.gnome.Photos.appdata.xml.in:16
+msgid "You can:"
+msgstr "អ្នកអាច៖"
 
-#: ../data/org.gnome.Photos.appdata.xml.in.h:3
+#: data/org.gnome.Photos.appdata.xml.in:18
+msgid "Automatically find all your pictures"
+msgstr "ស្វែងរករូបភាពរបស់អ្នកដោយស្វ័យប្រវត្តិ"
+
+#: data/org.gnome.Photos.appdata.xml.in:19
+msgid "View recent local and online photos"
+msgstr "មើលរូបថតថ្មីៗក្នុងកុំព្យូទ័រ និងអនឡាញ"
+
+#: data/org.gnome.Photos.appdata.xml.in:20
+msgid "Access your Facebook or Flickr pictures"
+msgstr "ចូលប្រើរូបភាព Facbook ឬ Flickr របស់អ្នក"
+
+#: data/org.gnome.Photos.appdata.xml.in:21
 msgid ""
-"<li>View recent local and online photos</li> <li>Access your Flickr content</"
-"li> <li>Send photos to remote DLNA renderers</li> <li>Set as background</li> "
-"<li>Print photos</li> <li>Select favorites</li> <li>Allow opening full "
-"featured editor for more advanced changes</li>"
-msgstr ""
+"View photos on TVs, laptops or other DLNA renderers on your local network"
+msgstr "មើលរូបថតនៅលើទូរទស្សន៍ កុំព្យូទ័រ ឬឧបករណ៍បង្ហាញ DLNA ផ្សេងទៀតនៅលើបណ្តាញមូលដ្ឋានរបស់អ្នក"
 
-#: ../data/org.gnome.Photos.desktop.in.in.h:1
-#: ../src/photos-search-type-manager.c:124
-msgid "Photos"
-msgstr ""
+#: data/org.gnome.Photos.appdata.xml.in:23
+msgid "Set pictures as your desktop background"
+msgstr "កំណត់រូបភាពជាផ្ទៃខាងក្រោយនៃអេក្រង់របស់អ្នក"
 
-#: ../data/org.gnome.Photos.desktop.in.in.h:2
+#: data/org.gnome.Photos.appdata.xml.in:24
+msgid "Print photos"
+msgstr "បោះពុម្ពរូបថត"
+
+#: data/org.gnome.Photos.appdata.xml.in:25
+msgid "Select favorites"
+msgstr "ជ្រើសរើសចំនូលចិត្ត"
+
+#: data/org.gnome.Photos.appdata.xml.in:26
+msgid ""
+"Easily edit your pictures in the app, or send to a full featured editor for "
+"more advanced changes"
+msgstr ""
+"កែសម្រួលរូបភាពរបស់អ្នកយ៉ាងងាយស្រួលក្នុងកម្មវិធី "
+"ឬផ្ញើរទៅកម្មវិធីកែសម្រួលដែលមានលក្ខណៈពិសេសពេញលេញសម្រាប់ការកែសម្រួលកំរិតខ្ពស់"
+
+#: data/org.gnome.Photos.appdata.xml.in:81
+msgid "The GNOME Project"
+msgstr "គំរោង GNOME"
+
+#: data/org.gnome.Photos.desktop.in.in:4
 msgid "Access, organize and share photos"
-msgstr ""
+msgstr "ចូលប្រើ រៀបចំ និងចែករំលែករូបថត"
 
-#: ../data/org.gnome.Photos.desktop.in.in.h:3
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Photos.desktop.in.in:15
 msgid "Photos;Pictures;"
-msgstr ""
+msgstr "រូបថត; រូបភាព;"
 
-#: ../data/org.gnome.photos.gschema.xml.h:1
+#: data/org.gnome.photos.gschema.xml:5
 msgid "Window size"
-msgstr ""
+msgstr "ទំហំបង្អួច"
 
-#: ../data/org.gnome.photos.gschema.xml.h:2
+#: data/org.gnome.photos.gschema.xml:6
 msgid "Window size (width and height)."
-msgstr ""
+msgstr "ទំហំបង្អួច (ទទឹង និងកំពស់) ។"
 
-#: ../data/org.gnome.photos.gschema.xml.h:3
+#: data/org.gnome.photos.gschema.xml:10
 msgid "Window position"
-msgstr ""
+msgstr "ទីតាំងបង្អួច"
 
-#: ../data/org.gnome.photos.gschema.xml.h:4
+#: data/org.gnome.photos.gschema.xml:11
 msgid "Window position (x and y)."
-msgstr ""
+msgstr "ទីតាំងបង្អួច (x និង y) ។"
 
-#: ../data/org.gnome.photos.gschema.xml.h:5
+#: data/org.gnome.photos.gschema.xml:15
 msgid "Window maximized"
-msgstr ""
+msgstr "បង្អួចត្រូវបានពង្រីកអតិបរមា"
 
-#: ../data/org.gnome.photos.gschema.xml.h:6
+#: data/org.gnome.photos.gschema.xml:16
 msgid "Window maximized state"
-msgstr ""
+msgstr "ស្ថានភាពនៃបង្អួចត្រូវបានពង្រីកអតិបរមា"
 
-#. A strftime-formatted string, to display the date the image was taken.
-#: ../src/eog-exif-util.c:120 ../src/eog-exif-util.c:160
-msgid "%a, %d %B %Y  %X"
-msgstr ""
+#: src/photos-application.c:164
+msgid "Show the empty state"
+msgstr "បង្ហាញស្ថានភាពទទេ"
 
-#. A strftime-formatted string, to display the date the image was taken, for the case we don't have the time.
-#: ../src/eog-exif-util.c:154
-msgid "%a, %d %B %Y"
-msgstr ""
+#: src/photos-application.c:165
+msgid "Show the application's version"
+msgstr "បង្ហាញជំនាន់នៃកម្មវិធី"
 
-#. TRANSLATORS: This is the actual focal length used when
-#. the image was taken.
-#: ../src/eog-exif-util.c:251
-#, c-format
-msgid "%.1f (lens)"
-msgstr ""
+#. Translators: this is the default sub-directory where photos will
+#. * be imported.
+#.
+#. Translators: this is the default sub-directory where photos
+#. * will be exported.
+#.
+#. Translators: this is the name of the default album that will be
+#. * created for imported photos.
+#.
+#: src/photos-application.c:1398 src/photos-export-dialog.c:195
+#: src/photos-import-dialog.c:134
+msgid "%-d %B %Y"
+msgstr "%-d %B %Y"
 
-#. Print as float to get a similar look as above.
-#. TRANSLATORS: This is the equivalent focal length assuming
-#. a 35mm film camera.
-#: ../src/eog-exif-util.c:262
-#, c-format
-msgid "%.1f (35mm film)"
-msgstr ""
-
-#: ../src/eog-image.c:595
-#, c-format
-msgid "Transformation on unloaded image."
-msgstr ""
-
-#: ../src/eog-image.c:623
-#, c-format
-msgid "Transformation failed."
-msgstr ""
-
-#: ../src/eog-image.c:1047
-#, c-format
-msgid "EXIF not supported for this file format."
-msgstr ""
-
-#: ../src/eog-image.c:1196
-#, c-format
-msgid "Image loading failed."
-msgstr ""
-
-#: ../src/eog-image.c:1727 ../src/eog-image.c:1847
-#, c-format
-msgid "No image loaded."
-msgstr ""
-
-#: ../src/eog-image.c:1735 ../src/eog-image.c:1856
-#, c-format
-msgid "You do not have the permissions necessary to save the file."
-msgstr ""
-
-#: ../src/eog-image.c:1745 ../src/eog-image.c:1867
-#, c-format
-msgid "Temporary file creation failed."
-msgstr ""
-
-#: ../src/eog-uri-converter.c:984
-#, c-format
-msgid "At least two file names are equal."
-msgstr ""
-
-#: ../src/eog-util.c:68
-msgid "Could not display help for Image Viewer"
-msgstr ""
-
-#: ../src/eog-util.c:116
-msgid " (invalid Unicode)"
-msgstr ""
-
-#: ../src/photos-app-menu.ui.h:1
-msgid "Fullscreen"
-msgstr ""
-
-#: ../src/photos-app-menu.ui.h:2
-msgid "_Help"
-msgstr ""
-
-#: ../src/photos-app-menu.ui.h:3
-msgid "About"
-msgstr ""
-
-#: ../src/photos-app-menu.ui.h:4
-msgid "Quit"
-msgstr ""
-
-#: ../src/photos-base-item.c:310
+#: src/photos-base-item.c:1037
 msgid "Album"
-msgstr ""
+msgstr "អាល់ប៊ុម"
 
-#: ../src/photos-base-item.c:760
+#: src/photos-base-item.c:2845
 msgid "Screenshots"
-msgstr ""
+msgstr "រូបថតអេក្រង់"
 
-#: ../src/photos-dlna-renderers-dialog.ui.h:1
-msgid "DLNA Renderer Devices"
-msgstr ""
-
-#: ../src/photos-embed.c:727
-msgid "Recent"
-msgstr ""
-
-#: ../src/photos-embed.c:733 ../src/photos-search-type-manager.c:109
-msgid "Albums"
-msgstr ""
-
-#: ../src/photos-embed.c:739 ../src/photos-search-type-manager.c:117
-msgid "Favorites"
-msgstr ""
-
-#: ../src/photos-empty-results-box.c:113
-msgid "Name your first album"
-msgstr ""
-
-#. Translators: this should be translated in the context of the "You
-#. * can add your online accounts in Settings" sentence below
-#.
-#: ../src/photos-empty-results-box.c:133
-msgid "Settings"
-msgstr ""
-
-#. Translators: %s here is "Settings", which is in a separate string
-#. * due to markup, and should be translated only in the context of
-#. * this sentence.
-#.
-#: ../src/photos-empty-results-box.c:139
+#: src/photos-delete-notification.c:136
 #, c-format
-msgid "You can add your online accounts in %s"
-msgstr ""
+msgid "“%s” deleted"
+msgstr "“%s” ត្រូវបានលុប"
 
-#: ../src/photos-empty-results-box.c:189
-msgid "No Albums Found"
-msgstr ""
+#: src/photos-delete-notification.c:139
+#, c-format
+msgid "%d item deleted"
+msgid_plural "%d items deleted"
+msgstr[0] "%d ឯកសារត្រូវបានលុប"
 
-#: ../src/photos-empty-results-box.c:193
-msgid "No Favorites Found"
-msgstr ""
+#: src/photos-delete-notification.c:146 src/photos-done-notification.c:119
+msgid "Undo"
+msgstr "មិនធ្វើវិញ"
 
-#: ../src/photos-empty-results-box.c:198
-msgid "No Photos Found"
-msgstr ""
+#: src/photos-dlna-renderers-dialog.ui:7
+msgid "DLNA Renderer Devices"
+msgstr "ឧបករណ៍បង្ហាញ DLNA"
 
-#: ../src/photos-facebook-item.c:190 ../src/photos-facebook-item.c:220
-msgid "Facebook"
-msgstr ""
+#: src/photos-done-notification.c:112
+#, c-format
+msgid "“%s” edited"
+msgstr "“%s” ត្រូវបានកែសម្រួល"
 
-#: ../src/photos-fetch-metas-job.c:163
-msgid "Untitled Photo"
-msgstr ""
+#: src/photos-embed.c:829
+msgid "Collection View"
+msgstr "ទិដ្ឋភាពរូបថតរូបប្រមូលផ្តុំ"
 
-#: ../src/photos-flickr-item.c:276 ../src/photos-flickr-item.c:323
-msgid "Flickr"
-msgstr ""
+#: src/photos-embed.c:832 src/photos-search-type-manager.c:129
+msgid "Albums"
+msgstr "អាល់ប៊ុមផ្សេងៗ"
 
-#: ../src/photos-indexing-notification.c:169
+#: src/photos-embed.c:836 src/photos-search-type-manager.c:137
+msgid "Favorites"
+msgstr "ចំណូលចិត្ត"
+
+#: src/photos-embed.c:840
+msgid "Import"
+msgstr "នាំចូល"
+
+#: src/photos-embed.c:843 src/photos-main-toolbar.c:335
+msgid "Search"
+msgstr "ស្វែងរក"
+
+#: src/photos-empty-results-box.c:120
+msgid "No albums found"
+msgstr "រកមិនឃើញអាល់ប៊ុម"
+
+#: src/photos-empty-results-box.c:124
+msgid "Starred photos will appear here"
+msgstr "រូបថតដាក់ផ្កាយនឹងបង្ហាញនៅទីនេះ"
+
+#: src/photos-empty-results-box.c:134
+msgid "No photos found"
+msgstr "រកមិនឃើញរូបថត"
+
+#: src/photos-empty-results-box.c:163
+msgid "You can create albums from the Photos view"
+msgstr "អ្នកអាចបង្កើតអាល់ប៊ុមពីទិដ្ឋភាព “រូបថត”"
+
+#. Translators: this should be translated in the context of
+#. * the "Photos from your Online Accounts and Pictures folder
+#. * will appear here." sentence below.
+#.
+#: src/photos-empty-results-box.c:184
+msgid "Online Accounts"
+msgstr "គណនីតាមអ៊ីនធឺណិត"
+
+#. Translators: this should be translated in the context of
+#. * the "Photos from your Online Accounts and Pictures folder
+#. * will appear here." sentence below.
+#.
+#: src/photos-empty-results-box.c:191
+msgid "Pictures folder"
+msgstr "ថតរបស់រូបភាព"
+
+#. Translators: the first %s here is "Online Accounts" and the
+#. * second %s is "Pictures folder", which are in separate
+#. * strings due to markup, and should be translated only in the
+#. * context of this sentence.
+#.
+#: src/photos-empty-results-box.c:198
+#, c-format
+msgid "Photos from your %s and %s will appear here."
+msgstr "រូបថតពី% s និង% s របស់អ្នកនឹងបង្ហាញនៅទីនេះ។"
+
+#: src/photos-empty-results-box.c:208
+msgid "Try a different search"
+msgstr "សាកល្បងការស្វែងរកផ្សេងទៀត"
+
+#: src/photos-export-dialog.ui:22
+msgctxt "dialog title"
+msgid "Export"
+msgstr "នាំចេញ"
+
+#: src/photos-export-dialog.ui:38
+msgid "_Folder Name"
+msgstr "_ឈ្មោះថតឯកសារ"
+
+#: src/photos-export-dialog.ui:66 src/photos-print-setup.c:912
+msgid "Size"
+msgstr "ទំហំ"
+
+#: src/photos-export-dialog.ui:83
+msgid "F_ull"
+msgstr "_ពេញ"
+
+#: src/photos-export-dialog.ui:113
+msgid "_Reduced"
+msgstr "_កាត់បន្ថយ"
+
+#: src/photos-export-dialog.ui:160 src/photos-import-dialog.ui:185
+#: src/photos-main-toolbar.c:487 src/photos-main-toolbar.c:523
+#: src/photos-main-toolbar.c:634
+msgid "_Cancel"
+msgstr "_បោះបង់"
+
+#: src/photos-export-dialog.ui:167
+msgid "_Export"
+msgstr "_នាំចេញ"
+
+#. Translators: this is the estimated size of the exported image in
+#. * the form "1600×1067 (0.6 GB)".
+#.
+#: src/photos-export-dialog.c:66
+#, c-format
+msgid "%d×%d (%s)"
+msgstr "%d×%d (%s)"
+
+#: src/photos-export-dialog.c:252
+msgid "Calculating export size…"
+msgstr "កំពុងគណនាទំហំនាំចេញ…"
+
+#: src/photos-export-notification.c:317
+msgid "Failed to export: not enough space"
+msgstr "បានបរាជ័យក្នុងការនាំចេញ៖ មិនមានទំហំផ្ទុក​ទិន្នន័យគ្រប់គ្រាន់"
+
+#: src/photos-export-notification.c:319
+msgid "Failed to export"
+msgstr "បានបរាជ័យក្នុងការនាំចេញ"
+
+#: src/photos-export-notification.c:326
+#, c-format
+msgid "“%s” exported"
+msgstr "“%s” ត្រូវបាននាំចេញ"
+
+#: src/photos-export-notification.c:330
+#, c-format
+msgid "%d item exported"
+msgid_plural "%d items exported"
+msgstr[0] "%d ឯកសារត្រូវបាននាំចេញ"
+
+#: src/photos-export-notification.c:347
+msgid "Analyze"
+msgstr "វិភាគ"
+
+#: src/photos-export-notification.c:352
+msgid "Empty Trash"
+msgstr "សម្អាតធុងសំរាម"
+
+#. Translators: this is the Open action in a context menu
+#: src/photos-export-notification.c:369 src/photos-preview-menu.ui:6
+#: src/photos-selection-toolbar.c:240 src/photos-selection-toolbar.ui:28
+msgid "Open"
+msgstr "បើក"
+
+#. Translators: this is the label of the button to open the
+#. * folder where the item was exported.
+#.
+#: src/photos-export-notification.c:379
+msgid "Export Folder"
+msgstr "នាំចេញថតឯកសារ"
+
+#. Translators: this is the fallback title in the form
+#. * "Facebook — 2nd January 2013".
+#.
+#: src/photos-facebook-item.c:100 src/photos-flickr-item.c:102
+#: src/photos-google-item.c:98
+#, c-format
+msgid "%s — %s"
+msgstr "%s — %s"
+
+#: src/photos-help-overlay.ui:32
+msgctxt "shortcut window"
+msgid "General"
+msgstr "ទូទៅ"
+
+#: src/photos-help-overlay.ui:36
+msgctxt "shortcut window"
+msgid "Show help"
+msgstr "បង្ហាញជំនួយ"
+
+#: src/photos-help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Keyboard shortcuts"
+msgstr "ផ្លូវកាត់លើក្តារចុច"
+
+#: src/photos-help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "ចាកចេញ"
+
+#: src/photos-help-overlay.ui:59
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "ការរុករក"
+
+#: src/photos-help-overlay.ui:63
+msgctxt "shortcut window"
+msgid "Next photo"
+msgstr "រូបថតបន្ទាប់"
+
+#: src/photos-help-overlay.ui:70
+msgctxt "shortcut window"
+msgid "Previous photo"
+msgstr "រូបថតមុន"
+
+#: src/photos-help-overlay.ui:77 src/photos-help-overlay.ui:85
+msgctxt "shortcut window"
+msgid "Go back"
+msgstr "ត្រឡប់​ក្រោយ"
+
+#: src/photos-help-overlay.ui:95
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "ទិដ្ឋភាពទូទៅ"
+
+#: src/photos-help-overlay.ui:99
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "ស្វែងរក"
+
+#: src/photos-help-overlay.ui:106
+msgctxt "shortcut window"
+msgid "Select all"
+msgstr "ជ្រើស​យក​ទាំងអស់"
+
+#: src/photos-help-overlay.ui:113
+msgctxt "shortcut window"
+msgid "Export selected photo"
+msgstr "នាំចេញរូបថតដែលបានជ្រើសរើស"
+
+#: src/photos-help-overlay.ui:120
+msgctxt "shortcut window"
+msgid "Print selected photo"
+msgstr "បោះពុម្ពរូបថតដែលបានជ្រើសរើស"
+
+#: src/photos-help-overlay.ui:127
+msgctxt "shortcut window"
+msgid "Delete selected photos"
+msgstr "លុបរូបថតដែលបានជ្រើសរើស"
+
+#: src/photos-help-overlay.ui:136
+msgctxt "shortcut window"
+msgid "Photo view"
+msgstr "ទិដ្ឋភាពរូបថត"
+
+#: src/photos-help-overlay.ui:140
+msgctxt "shortcut window"
+msgid "Edit"
+msgstr "កែសម្រួល"
+
+#: src/photos-help-overlay.ui:147
+msgctxt "shortcut window"
+msgid "Export"
+msgstr "នាំចេញ"
+
+#: src/photos-help-overlay.ui:154
+msgctxt "shortcut window"
+msgid "Print"
+msgstr "បោះពុម្ព"
+
+#: src/photos-help-overlay.ui:161
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr "ពង្រីក"
+
+#: src/photos-help-overlay.ui:168
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr "បង្រួម"
+
+#: src/photos-help-overlay.ui:175
+msgctxt "shortcut window"
+msgid "Best fit"
+msgstr "សម​ល្អ​បំផុត"
+
+#: src/photos-help-overlay.ui:182
+msgctxt "shortcut window"
+msgid "Delete"
+msgstr "លុប"
+
+#: src/photos-help-overlay.ui:189
+msgctxt "shortcut window"
+msgid "Action menu"
+msgstr "ម៉ឺនុយ “សកម្មភាព”"
+
+#: src/photos-help-overlay.ui:196
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "ពេញ​អេក្រង់"
+
+#: src/photos-help-overlay.ui:205
+msgctxt "shortcut window"
+msgid "Edit view"
+msgstr "ទិដ្ឋភាពកែសម្រួល"
+
+#: src/photos-help-overlay.ui:209
+msgctxt "shortcut window"
+msgid "Cancel"
+msgstr "បោះបង់ចោល"
+
+#: src/photos-import-dialog.c:194
+msgid "An album with that name already exists"
+msgstr "អាល់ប៊ុមដែលមានឈ្មោះនោះ មានរួចហើយ"
+
+#: src/photos-import-dialog.c:211
+msgid "An album for that date already exists"
+msgstr "អាល់ប៊ុមសម្រាប់កាលបរិច្ឆេទនោះ មានរួចហើយ"
+
+#: src/photos-import-dialog.ui:22
+msgctxt "dialog title"
+msgid "Name Album"
+msgstr "ឈ្មោះអាល់ប៊ុម"
+
+#: src/photos-import-dialog.ui:54
+msgid "Create _New"
+msgstr "បង្កើត​_ថ្មី"
+
+#: src/photos-import-dialog.ui:118
+msgid "Add to _Existing"
+msgstr "បន្ថែម​លើអ្វីដែល_មានស្រាប់"
+
+#: src/photos-import-dialog.ui:192 src/photos-organize-collection-dialog.c:69
+msgid "_Add"
+msgstr "_បន្ថែម​"
+
+#. Translators: %s refers to an online account provider, e.g.,
+#. * "Facebook" or "Flickr".
+#.
+#: src/photos-indexing-notification.c:164
+#, c-format
+msgid "Fetching photos from %s"
+msgstr "កំពុងទៅយករូបថតពី %s"
+
+#: src/photos-indexing-notification.c:167
+msgid "Fetching photos from online accounts"
+msgstr "កំពុងទៅយករូបថតពីគណនីតាមអ៊ីនធឺណិត"
+
+#: src/photos-indexing-notification.c:202
 msgid "Your photos are being indexed"
-msgstr ""
+msgstr "រូបថតរបស់អ្នកកំពុងត្រូវបានធ្វើលិបិក្រម"
 
-#: ../src/photos-indexing-notification.c:173
+#: src/photos-indexing-notification.c:203
 msgid "Some photos might not be available during this process"
-msgstr ""
+msgstr "រូបថតខ្លះប្រហែលជាមិនមានទេអំឡុងពេលដំណើរការនេះ"
 
-#: ../src/photos-load-more-button.c:73 ../src/photos-load-more-button.c:194
-msgid "Load More"
-msgstr ""
+#: src/photos-item-manager.c:824
+#, c-format
+msgid "Oops! Unable to load “%s”"
+msgstr "អូ! មិនអាចដំណើរការ “% s”"
 
-#: ../src/photos-load-more-button.c:86
-msgid "Loading…"
-msgstr ""
-
-#: ../src/photos-local-item.c:70 ../src/photos-source-manager.c:134
+#: src/photos-local-item.c:239 src/photos-source-manager.c:399
 msgid "Local"
-msgstr ""
+msgstr "នៅក្នុងកុំព្យូទ័រ"
 
-#: ../src/photos-main-toolbar.c:108
+#: src/photos-main-toolbar.c:79
 msgid "Click on items to select them"
-msgstr ""
+msgstr "ចុចលើវត្ថុដើម្បីជ្រើសរើសវា"
 
-#: ../src/photos-main-toolbar.c:110
+#: src/photos-main-toolbar.c:81
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d បានជ្រើសរើស"
 
-#: ../src/photos-main-toolbar.c:156
+#: src/photos-main-toolbar.c:169
+msgid "Select items for import"
+msgstr "ជ្រើសរើសវត្ថុសម្រាប់នាំចូល"
+
+#: src/photos-main-toolbar.c:173
+#, c-format
+msgid "Select items for import (%u selected)"
+msgid_plural "Select items for import (%u selected)"
+msgstr[0] "ជ្រើសវត្ថុសម្រាប់នាំចូល (% u បានជ្រើសរើស)"
+
+#: src/photos-main-toolbar.c:216
 msgid "Back"
-msgstr ""
+msgstr "ត្រឡប់ក្រោយ"
 
-#: ../src/photos-main-toolbar.c:280
-msgid "Search"
-msgstr ""
-
-#: ../src/photos-main-toolbar.c:296
+#: src/photos-main-toolbar.c:350
 msgid "Select Items"
-msgstr ""
+msgstr "ជ្រើសរើសវត្ថុ"
 
+#. length == 1
 #. Translators: this is the Open action in a context menu
-#: ../src/photos-main-toolbar.c:418 ../src/photos-selection-toolbar.c:278
+#: src/photos-main-toolbar.c:410 src/photos-selection-toolbar.c:237
+#: src/photos-share-notification.c:165
 #, c-format
 msgid "Open with %s"
-msgstr ""
+msgstr "បើកជាមួយ %s"
 
-#: ../src/photos-main-toolbar.c:577
-msgid "Cancel"
-msgstr ""
+#: src/photos-main-toolbar.c:441 src/photos-selection-toolbar.c:248
+msgid "Remove from favorites"
+msgstr "យកចេញពីចំនូលចិត្ត"
 
-#: ../src/photos-main-window.c:432
-msgid "Access, organize and share your photos on GNOME"
+#: src/photos-main-toolbar.c:446 src/photos-selection-toolbar.c:253
+msgid "Add to favorites"
+msgstr "បន្ថែមទៅចំណូលចិត្ត"
+
+#: src/photos-main-toolbar.c:491
+msgid "Done"
+msgstr "រួចរាល់"
+
+#: src/photos-main-toolbar.c:527
+msgid "_Select"
+msgstr "_ជ្រើសរើស"
+
+#: src/photos-main-window.c:458
+msgid ""
+"Copyright © 2012 – 2019 Red Hat, Inc.\n"
+"Copyright © 2015 – 2018 Umang Jain"
 msgstr ""
+"រក្សាសិទ្ធិ © 2012 – 2019 Red Hat, Inc.\n"
+"រក្សាសិទ្ធិ © 2015 – 2018 Umang Jain"
 
 #. Translators: Put your names here
-#: ../src/photos-main-window.c:444
+#: src/photos-main-window.c:466
 msgid "translator-credits"
-msgstr ""
+msgstr "ស៊ាន វិសិដ្ឋ"
 
-#: ../src/photos-organize-collection-dialog.c:76
-msgid "_Add"
-msgstr ""
-
-#: ../src/photos-organize-collection-dialog.c:77
+#: src/photos-organize-collection-dialog.c:70
 msgid "_OK"
-msgstr ""
+msgstr "_យល់ព្រម"
 
 #. Translators: "Organize" refers to photos in this context
-#: ../src/photos-organize-collection-dialog.c:128
+#: src/photos-organize-collection-dialog.c:121
 msgctxt "Dialog title"
 msgid "Organize"
-msgstr ""
+msgstr "រៀបចំ"
 
-#. Translators: this is the Open action in a context menu
-#: ../src/photos-preview-menu.ui.h:1 ../src/photos-selection-toolbar.c:281
-#: ../src/photos-selection-toolbar.c:437
-msgid "Open"
-msgstr ""
+#: src/photos-preview-menu.ui:10
+msgid "Export…"
+msgstr "នាំចេញ…"
 
-#: ../src/photos-preview-menu.ui.h:2
+#: src/photos-preview-menu.ui:14
 msgid "Print…"
-msgstr ""
+msgstr "បោះពុម្ព…"
 
-#: ../src/photos-preview-menu.ui.h:3
+#: src/photos-preview-menu.ui:19
+msgid "Delete"
+msgstr "លុប"
+
+#: src/photos-preview-menu.ui:23
 msgid "Display on…"
-msgstr ""
+msgstr "បង្ហាញលើ…"
 
-#: ../src/photos-preview-menu.ui.h:4
+#: src/photos-preview-menu.ui:27
 msgid "Set as Background"
-msgstr ""
+msgstr "កំណត់ជាផ្ទៃខាងក្រោយ"
 
-#: ../src/photos-preview-menu.ui.h:5 ../src/photos-properties-dialog.c:653
-#: ../src/photos-selection-toolbar.c:461
+#: src/photos-preview-menu.ui:31
+msgid "Set as Lock Screen"
+msgstr "កំណត់ជាអេក្រង់ចាក់សោ"
+
+#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:883
+#: src/photos-selection-toolbar.ui:101
 msgid "Properties"
-msgstr ""
+msgstr "លក្ខណៈសម្បត្តិ"
 
-#: ../src/photos-preview-nav-buttons.c:209
-#: ../src/photos-selection-toolbar.c:290
-msgid "Remove from favorites"
-msgstr ""
+#: src/photos-preview-menu.ui:41
+msgid "Fullscreen"
+msgstr "ពេញ​អេក្រង់"
 
-#: ../src/photos-preview-nav-buttons.c:214
-#: ../src/photos-selection-toolbar.c:296
-msgid "Add to favorites"
-msgstr ""
+#: src/photos-primary-menu.ui:6
+msgid "Keyboard Shortcuts"
+msgstr "ផ្លូវកាត់លើក្តារចុច"
 
-#: ../src/photos-print-operation.c:272
+#: src/photos-primary-menu.ui:10
+msgid "_Help"
+msgstr "_ជំនួយ"
+
+#: src/photos-primary-menu.ui:14
+msgid "About Photos"
+msgstr "អំពី​ “រូបថត”"
+
+#: src/photos-print-notification.c:71
+#, c-format
+msgid "Printing “%s”: %s"
+msgstr "កំពុងបោះពុម្ព “%s”: %s"
+
+#: src/photos-print-operation.c:241
 msgid "Image Settings"
-msgstr ""
+msgstr "ការកំណត់ចំណូលចិត្តលើ “រូបភាព”"
 
-#: ../src/photos-print-setup.c:895
+#: src/photos-print-setup.c:884
 msgid "Position"
-msgstr ""
+msgstr "ទីតាំង"
 
-#: ../src/photos-print-setup.c:898
+#: src/photos-print-setup.c:887
 msgid "_Left:"
-msgstr ""
+msgstr "_ខាងឆ្វេង៖"
 
-#: ../src/photos-print-setup.c:899
+#: src/photos-print-setup.c:888
 msgid "_Right:"
-msgstr ""
+msgstr "_ខាងស្ដាម៖"
 
-#: ../src/photos-print-setup.c:900
+#: src/photos-print-setup.c:889
 msgid "_Top:"
-msgstr ""
+msgstr "_ខាងលើ៖"
 
-#: ../src/photos-print-setup.c:901
+#: src/photos-print-setup.c:890
 msgid "_Bottom:"
-msgstr ""
+msgstr "_ខាង​ក្រោម៖"
 
-#: ../src/photos-print-setup.c:903
+#: src/photos-print-setup.c:892
 msgid "C_enter:"
-msgstr ""
+msgstr "_កណ្តាល៖"
 
-#: ../src/photos-print-setup.c:907
+#: src/photos-print-setup.c:896
 msgid "None"
-msgstr ""
+msgstr "គ្មាន"
 
-#: ../src/photos-print-setup.c:908
+#: src/photos-print-setup.c:897
 msgid "Horizontal"
-msgstr ""
+msgstr "ផ្ដេក"
 
-#: ../src/photos-print-setup.c:909
+#: src/photos-print-setup.c:898
 msgid "Vertical"
-msgstr ""
+msgstr "បញ្ឈរ"
 
-#: ../src/photos-print-setup.c:910
+#: src/photos-print-setup.c:899
 msgid "Both"
-msgstr ""
+msgstr "ទាំងពីរ"
 
-#: ../src/photos-print-setup.c:923
-msgid "Size"
-msgstr ""
-
-#: ../src/photos-print-setup.c:926
+#: src/photos-print-setup.c:915
 msgid "_Width:"
-msgstr ""
+msgstr "_ទទឹង៖"
 
-#: ../src/photos-print-setup.c:927
+#: src/photos-print-setup.c:916
 msgid "_Height:"
-msgstr ""
+msgstr "_កម្ពស់៖"
 
-#: ../src/photos-print-setup.c:929
+#: src/photos-print-setup.c:918
 msgid "_Scaling:"
-msgstr ""
+msgstr "_ធ្វើមាត្រដ្ឋាន៖"
 
-#: ../src/photos-print-setup.c:938
+#: src/photos-print-setup.c:927
 msgid "_Unit:"
-msgstr ""
+msgstr "_ឯកតា៖"
 
-#: ../src/photos-print-setup.c:942
+#: src/photos-print-setup.c:931
 msgid "Millimeters"
-msgstr ""
+msgstr "មីល្លីម៉ែត្រ"
 
-#: ../src/photos-print-setup.c:943
+#: src/photos-print-setup.c:932
 msgid "Inches"
-msgstr ""
+msgstr "អ៊ីញ"
 
-#: ../src/photos-print-setup.c:971
+#: src/photos-print-setup.c:960
 msgid "Preview"
-msgstr ""
+msgstr "មើលជាមុន"
+
+#: src/photos-properties-dialog.c:246
+msgid "Edited in Photos"
+msgstr "បានកែក្នុង”រូបថត”"
+
+#: src/photos-properties-dialog.c:259
+msgid "Untouched"
+msgstr "មិនបានប៉ះពាល់"
 
 #. Translators: this is the label next to the photo title in the
 #. * properties dialog
 #.
-#: ../src/photos-properties-dialog.c:218
+#: src/photos-properties-dialog.c:442
 msgctxt "Document Title"
 msgid "Title"
-msgstr ""
+msgstr "ចំណងជើង"
 
 #. Translators: this is the label next to the photo author in
 #. * the properties dialog
 #.
-#: ../src/photos-properties-dialog.c:230
+#: src/photos-properties-dialog.c:454
 msgctxt "Document Author"
 msgid "Author"
-msgstr ""
+msgstr "អ្នកនិពន្ធ"
 
-#: ../src/photos-properties-dialog.c:237
+#: src/photos-properties-dialog.c:461
 msgid "Source"
-msgstr ""
+msgstr "ប្រភព"
 
-#: ../src/photos-properties-dialog.c:243
+#: src/photos-properties-dialog.c:467
 msgid "Date Modified"
-msgstr ""
+msgstr "កាលបរិច្ឆេទនៃកែប្រែ"
 
-#: ../src/photos-properties-dialog.c:251
+#: src/photos-properties-dialog.c:475
 msgid "Date Created"
-msgstr ""
+msgstr "កាលបរិច្ឆេទនៃការបង្កើត"
 
 #. Translators: this is the label next to the photo type in the
 #. * properties dialog
 #.
-#: ../src/photos-properties-dialog.c:261
+#: src/photos-properties-dialog.c:485
 msgctxt "Document Type"
 msgid "Type"
-msgstr ""
+msgstr "ប្រភេទ"
 
-#: ../src/photos-properties-dialog.c:270
-msgid "Width"
-msgstr ""
+#: src/photos-properties-dialog.c:495
+msgid "Dimensions"
+msgstr "វិមាត្រ"
 
-#: ../src/photos-properties-dialog.c:280
-msgid "Height"
-msgstr ""
+#: src/photos-properties-dialog.c:507
+msgid "Location"
+msgstr "ទីតាំង"
 
-#: ../src/photos-properties-dialog.c:295
+#: src/photos-properties-dialog.c:525
 msgid "Camera"
-msgstr ""
+msgstr "កាមេរ៉ា"
 
-#: ../src/photos-properties-dialog.c:305
+#: src/photos-properties-dialog.c:535 src/photos-tool-colors.c:365
 msgid "Exposure"
-msgstr ""
+msgstr "ពន្លឺ"
 
-#: ../src/photos-properties-dialog.c:315
+#: src/photos-properties-dialog.c:545
 msgid "Aperture"
-msgstr ""
+msgstr "ជំរៅ"
 
-#: ../src/photos-properties-dialog.c:325
+#: src/photos-properties-dialog.c:555
 msgid "Focal Length"
-msgstr ""
+msgstr "ប្រវែងប្រសព្វ"
 
-#: ../src/photos-properties-dialog.c:335
+#: src/photos-properties-dialog.c:565
 msgid "ISO Speed"
 msgstr ""
 
-#: ../src/photos-properties-dialog.c:345
+#: src/photos-properties-dialog.c:575
 msgid "Flash"
-msgstr ""
+msgstr "ពន្លឺ"
 
-#: ../src/photos-properties-dialog.c:536
+#: src/photos-properties-dialog.c:584
+msgid "Modifications"
+msgstr "ការកែប្រែ"
+
+#: src/photos-properties-dialog.c:656
+#, c-format
+msgid "%ld × %ld pixel"
+msgid_plural "%ld × %ld pixels"
+msgstr[0] "%ld × %ld ភីកសែល"
+
+#: src/photos-properties-dialog.c:721
 msgid "Off, did not fire"
-msgstr ""
+msgstr "បិទ, មិនបានបាញ់ទេ"
 
-#: ../src/photos-properties-dialog.c:538
+#: src/photos-properties-dialog.c:723
 msgid "On, fired"
-msgstr ""
+msgstr "បើក, បានបាញ់"
 
-#: ../src/photos-properties-dialog.c:617
-msgid "Done"
-msgstr ""
+#: src/photos-properties-dialog.c:760
+msgid "Discard all Edits"
+msgstr "បោះបង់ការកែប្រែទាំងអស់"
 
-#: ../src/photos-search-match-manager.c:154
-#: ../src/photos-search-type-manager.c:101 ../src/photos-source-manager.c:130
+#: src/photos-removable-devices-button.ui:47
+msgid "Devices"
+msgstr "ឧបករណ៍"
+
+#: src/photos-search-match-manager.c:155 src/photos-search-type-manager.c:121
+#: src/photos-source-manager.c:396
 msgid "All"
-msgstr ""
+msgstr "ទាំងអស់"
 
 #. Translators: "Title" refers to "Match Title" when searching.
-#: ../src/photos-search-match-manager.c:161
+#: src/photos-search-match-manager.c:162
 msgctxt "Search Filter"
 msgid "Title"
-msgstr ""
+msgstr "ចំណងជើង"
 
 #. Translators: "Author" refers to "Match Author" when searching.
-#: ../src/photos-search-match-manager.c:168
+#: src/photos-search-match-manager.c:169
 msgctxt "Search Filter"
 msgid "Author"
-msgstr ""
+msgstr "អ្នកនិពន្ធ"
 
-#: ../src/photos-search-match-manager.c:205
+#. Translators: this is a verb that refers to "All", "Title" and
+#. * "Author", as in "Match All", "Match Title" and "Match Author".
+#.
+#: src/photos-search-match-manager.c:207
 msgid "Match"
-msgstr ""
+msgstr "ផ្គូផ្គង"
 
 #. Translators: "Type" refers to a search filter. eg., All, Albums,
 #. * Favorites and Photos.
 #.
-#: ../src/photos-search-type-manager.c:154
+#: src/photos-search-type-manager.c:178
 msgctxt "Search Filter"
 msgid "Type"
-msgstr ""
+msgstr "ប្រភេទ"
 
-#: ../src/photos-selection-menu.ui.h:1
+#: src/photos-selection-menu.ui:6
 msgid "Select All"
-msgstr ""
+msgstr "ជ្រើស​យក​ទាំងអស់"
 
-#: ../src/photos-selection-menu.ui.h:2
+#: src/photos-selection-menu.ui:11
 msgid "Select None"
-msgstr ""
+msgstr "គ្មានជ្រើសរើស"
 
-#: ../src/photos-selection-toolbar.c:445
-msgid "Print"
-msgstr ""
+#: src/photos-selection-toolbar.ui:19
+msgid "Export"
+msgstr "នាំចេញ"
 
-#: ../src/photos-selection-toolbar.c:453
-msgid "Delete"
-msgstr ""
-
-#: ../src/photos-selection-toolbar.c:469
+#: src/photos-selection-toolbar.ui:111
 msgid "Add to Album"
-msgstr ""
+msgstr "បន្ថែមទៅអាល់ប៊ុម"
 
-#: ../src/photos-source-manager.c:174
+#: src/photos-share-dialog.ui:25
+msgctxt "dialog title"
+msgid "Share"
+msgstr "ចែករំលែក"
+
+#: src/photos-share-notification.c:148
+#, c-format
+msgid "“%s” shared"
+msgstr "“%s” បានចែករំលែក"
+
+#: src/photos-share-point-email.c:78
+msgid "E-Mail"
+msgstr "អ៊ីមែល"
+
+#: src/photos-share-point-google.c:103
+msgid "Failed to upload photo: Service not authorized"
+msgstr "បានបរាជ័យក្នុងការផ្ទុករូបថតទៅអ៊ីនធឺណិត៖ សេវាកម្មមិនត្រូវបានអនុញ្ញាតទេ"
+
+#: src/photos-share-point-google.c:105
+msgid "Failed to upload photo"
+msgstr "បានបរាជ័យក្នុងការផ្ទុករូបថតទៅអ៊ីនធឺណិត"
+
+#: src/photos-source-manager.c:465
 msgid "Sources"
+msgstr "ប្រភព"
+
+#: src/photos-source-notification.c:171
+msgid "New device discovered"
+msgstr "រកឃើញឧបករណ៍ថ្មី"
+
+#: src/photos-source-notification.c:184
+msgid "Import…"
+msgstr "នាំចូល…"
+
+#. Translators: %s refers to an online account provider, e.g.,
+#. * "Facebook" or "Flickr".
+#.
+#: src/photos-source-notification.c:214
+#, c-format
+msgid "Your %s credentials have expired"
+msgstr "ព័ត៌មានបញ្ជាក់អត្តសញ្ញាណ %s របស់អ្នកបានផុតកំណត់ហើយ"
+
+#: src/photos-source-notification.c:221
+msgid "Settings"
+msgstr "ការកំណត់ចំណូលចិត្ត"
+
+#: src/photos-thumbnailer.c:74
+msgid "D-Bus address to use"
+msgstr "អាសយដ្ឋាន D-Bus ដែលត្រូវប្រើ"
+
+#: src/photos-tool-colors.c:386
+msgid "Contrast"
+msgstr "ភាពខុសគ្នានៃពន្លឺ"
+
+#: src/photos-tool-colors.c:407
+msgid "Blacks"
+msgstr "ខ្មៅ"
+
+#: src/photos-tool-colors.c:428
+msgid "Saturation"
+msgstr "អាំងតង់ស៊ីតេនៃពណ៌"
+
+#: src/photos-tool-colors.c:447
+msgid "Shadows"
+msgstr "ស្រមោល"
+
+#: src/photos-tool-colors.c:466
+msgid "Highlights"
+msgstr "តំបន់ភ្លឺបំផុត"
+
+#: src/photos-tool-colors.c:495
+msgid "Colors"
+msgstr "ពណ៌"
+
+#: src/photos-tool-crop.c:192
+msgid "Free"
+msgstr "ឥតគិតថ្លៃ"
+
+#: src/photos-tool-crop.c:193
+msgid "Original"
+msgstr "ភាពដើម"
+
+#: src/photos-tool-crop.c:194
+msgid "1×1 (Square)"
+msgstr "1×1 (ការ៉េ)"
+
+#: src/photos-tool-crop.c:195
+msgid "10×8 / 5×4"
+msgstr "10×8 / 5×4"
+
+#: src/photos-tool-crop.c:196
+msgid "4×3 / 8×6 (1024×768)"
+msgstr "4×3 / 8×6 (1024×768)"
+
+#: src/photos-tool-crop.c:197
+msgid "7×5"
+msgstr "7×5"
+
+#: src/photos-tool-crop.c:198
+msgid "3×2 / 6×4"
+msgstr "3×2 / 6×4"
+
+#: src/photos-tool-crop.c:199
+msgid "16×10 (1280×800)"
+msgstr "16×10 (1280×800)"
+
+#: src/photos-tool-crop.c:200
+msgid "16×9 (1920×1080)"
+msgstr "16×9 (1920×1080)"
+
+#: src/photos-tool-crop.c:1459
+msgid "Lock aspect ratio"
+msgstr "រក្សាទិដ្ឋភាពសមាមាត្រ"
+
+#: src/photos-tool-crop.c:1529
+msgid "Landscape"
+msgstr "ផ្តេក"
+
+#: src/photos-tool-crop.c:1540
+msgid "Portrait"
+msgstr "បញ្ឈរ"
+
+#: src/photos-tool-crop.c:1551
+msgid "Reset"
+msgstr "កំណត់ឡើងវិញ"
+
+#: src/photos-tool-crop.c:1569
+msgid "Crop"
+msgstr "ច្រឹបកាត់"
+
+#: src/photos-tool-enhance.c:197
+msgid "Sharpen"
+msgstr "ធ្វើឱ្យច្បាស់"
+
+#: src/photos-tool-enhance.c:218
+msgid "Denoise"
+msgstr "កាត់បន្ថយភាពមិនទៀងទាត់"
+
+#: src/photos-tool-enhance.c:245
+msgid "Enhance"
+msgstr "ធ្វើឱ្យប្រសើរឡើង"
+
+#. Translators: "None" refers to the nop magic filter when editing.
+#: src/photos-tool-filters.c:182
+msgctxt "Edit Filter"
+msgid "None"
+msgstr "គ្មាន"
+
+#: src/photos-tool-filters.c:189
+msgid "1947"
+msgstr "1947"
+
+#: src/photos-tool-filters.c:196
+msgid "Calistoga"
 msgstr ""
 
-#: ../src/photos-tracker-controller.c:96
-msgid "Unable to fetch the list of photos"
+#: src/photos-tool-filters.c:202
+msgid "Trencin"
 msgstr ""
+
+#: src/photos-tool-filters.c:209
+msgid "Mogadishu"
+msgstr ""
+
+#: src/photos-tool-filters.c:215
+msgid "Caap"
+msgstr ""
+
+#: src/photos-tool-filters.c:222
+msgid "Hometown"
+msgstr "ស្រុកកំណើត"
+
+#: src/photos-tool-filters.c:239
+msgid "Filters"
+msgstr "តម្រង"
+
+#: src/photos-tracker-controller.c:174
+msgid "Unable to find Tracker on your operating system"
+msgstr "មិនអាចស្វែងរក “កម្មវិធីតាមដាន” នៅលើប្រព័ន្ធប្រតិបត្តិការរបស់អ្នកទេ"
+
+#: src/photos-tracker-controller.c:176
+msgid "Unable to fetch the list of photos"
+msgstr "មិនអាចទៅយកបញ្ជីរូបថត"
